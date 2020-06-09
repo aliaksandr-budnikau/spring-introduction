@@ -1,6 +1,6 @@
-package spring;
+package my.spring.ex03;
 
-import my.spring.component.OtherComponent;
+import my.spring.ex03.component.OtherComponent;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

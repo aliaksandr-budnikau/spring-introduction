@@ -1,4 +1,4 @@
-package my.spring.repository;
+package my.spring.ex03.repository;
 
 public interface DataRepository {
 
