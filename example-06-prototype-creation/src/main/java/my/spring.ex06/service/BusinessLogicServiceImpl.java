@@ -20,11 +20,14 @@ public class BusinessLogicServiceImpl implements BusinessLogicService {
     private EventProvider eventProvider;
 
     public void doSomeLogic() {
-        //EventProvider eventProvider = context.getBean(EventProvider.class); // 99
-        //Event event = context.getBean(Event.class); // 3043
+        //EventProvider eventProvider = context.getBean(EventProvider.class); // A performance trick :)
+
+        //Event event = context.getBean(Event.class); // A refactoring trick :)
         //Event event = new Event(); // 8
-        //Event event = eventObjectProvider.getObject();  // 6342
-        //Event event = eventProvider.provideEvent(); // 3271
+
+        //Event event = eventObjectProvider.getObject();  // A refactoring trick 2 :)
+        //Event event = eventProvider.provideEvent(); // Strong-typing languages are cool! + One more coolest magic trick!
+
         //event.doSomething();
     }
 }
